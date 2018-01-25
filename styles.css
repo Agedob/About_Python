@@ -1,12 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
-    text-align: justify;
+    /* text-align: justify; */
     vertical-align: top;
     font-family: arial;
-    color: white;
+    /* color: white; */
    }
-
+a{
+    color:white;
+}
 #container{
     width: 970px;
     background-color: white;
@@ -15,7 +17,8 @@
 }
 
 #head{
-    padding: 5px;
+    padding: 5px 0px;
+    color: white;
     background-color: #003366;
     /* the wrap */
 }
@@ -56,7 +59,7 @@
 
 #body{
     /* display: inline-block; */
-    background-color: red;
+    /* background-color: red; */
     padding: 10px 50px;
     text-align: center;
 
@@ -77,8 +80,9 @@
 }
                            /* end of menu bar */
 #body_list{
-    /* margin-left: 20px; */
-    text-align: center;
+    /* margin-left: 20px;
+    text-align: center; */
+    width: 170px;
     display: inline-block;
     list-style-position: inside;
     background-color: green;
@@ -91,6 +95,61 @@
     margin-left: 20px;
     width: 500px;
     font-size: 8pt;
-    background-color: rgba(0, 247, 255, 0.534);
+    /* background-color: rgba(0, 247, 255, 0.534); */
     text-align: center;
+}
+
+#body_p_2{
+    /* background-color: #3dfd0d; */
+    display: inline-block;
+    color: gold;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12pt;
+}
+
+#zen{
+    color:white;
+    font-size: 10;
+}
+
+/* end of body */
+
+#mid{
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+#mid_2, #mid_3{
+    border-top: 3px;
+    border-top-style: solid;
+    border-color: #005de7;
+    line-height: 14pt;
+    padding: 10px 0px;
+    margin: 10px;
+    width: 45%;
+    min-height: 180px;
+    max-height: 180px;
+    /* text-align: center; */
+    /* text-decoration:none; */
+    list-style-position: inside;
+    display: inline-block;
+    /* background-color: white; */
+}
+
+/* #mid_3{
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+    text-align: center;
+    text-decoration:none;
+    list-style-position: inside;
+    display: inline-block;
+    background-color: darkmagenta;
+} */ 
+
+.why {
+    color: rgb(0, 102, 255);
+    text-decoration:none;
 }

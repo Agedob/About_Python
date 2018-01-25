@@ -124,7 +124,7 @@ a{
 #mid_2, #mid_3{
     border-top: 3px;
     border-top-style: solid;
-    border-color: #005de7;
+    border-color: #49dfdf;
     line-height: 14pt;
     padding: 10px 0px;
     margin: 10px;
@@ -150,6 +150,22 @@ a{
 } */ 
 
 .why {
-    color: rgb(0, 102, 255);
+    color: rgb(46, 167, 248);
     text-decoration:none;
+}
+
+#foot{
+text-align: center;
+padding: 10px;
+}
+
+.foot{
+    margin: 20px;
+    color: rgb(46, 167, 248);
+display: inline-block;
+text-decoration: none;
+}
+
+#foot_cr{
+font-size: 5pt;
 }
